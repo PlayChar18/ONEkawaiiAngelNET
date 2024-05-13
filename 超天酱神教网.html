@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>因特网天使降临！</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+            background-image: url('https://i.postimg.cc/7ZCJ0tRj/background.png');
+            background-size: cover;
+            background-position: center center; /* x | y */
+            font-family: 'Arial', sans-serif;
+        }
+          .disclaimer {
+               background-color: #FFC0CB; /* 提示背景色 */
+               color: #000000; /* 文字颜色 */
+               text-align: center; /* 文字居中 */
+               font-size: 14px; /* 文字大小 */
+               padding: 10px 0; /* 上下填充 */
+               width: 100%; /* 宽度覆盖整个视窗 */
+               position: fixed; /* 固定位置 */
+               top: 0; /* 顶部对齐 */
+               left: 0; /* 左侧对齐 */
+               z-index: 1000; /* 确保在顶层显示 */
+               box-shadow: 0px 2px 4px rgba(0,0,0,0.1); /* 轻微的阴影效果，增加立体感 */
+        }
+        .container {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+            margin: 40px auto;
+            max-width: 800px; /* 最大宽度 */
+            border-radius: 15px;
+        }
+        h1, h2, h3 {
+            color: #4A90E2;
+        }
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+        a {
+            color: #4A90E2;
+            margin: 0 70px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+           a img {
+               width: 100px; /* 设置图标的宽度 */
+               height: 100px; /* 设置图标的高度 */
+               object-fit: contain; /* 保证图片内容缩放以最佳方式适应分配的宽高比 */
+        }
+    </style>
+</head>
+<body>
+    <div class="disclaimer">虚假内容，仅供娱乐，禁止模仿或传播</div>
+    <div class="container">
+        <h1>因特网天使降临！</h1>
+        <p>在这个令人眩晕的数字时代，互联网的海洋变得愈发混沌，充满了不确定和危险。人们在这海洋里迷失方向，徘徊不前。在这一片混乱之中，一个传说悄悄传开——互联网天使——超天酱将降临人间！【✨超天酱✨】通过直播向所有人发送了她的光芒与爱！</p>
+        <h2>小天使请安！</h2>
+        <p>我乃从天而降的一道光，照亮混沌的令和网络世界...！为漂泊在电子之海的宅宅们送上笑容！世界的和平我向你保证！虽然我躁郁但放心交给我！当代互联网小天使（INTERNET ANGEL)，堂堂降临！！！！今后本天使会用满满的爱意治愈网上的宅宅们哦~~</p>
+        <h2>🌍 迎接世界末日的启示 🌍</h2>
+        <p>核心教义揭示了一个惊人的真相：由于互联网的过度混乱，这个世界即将迎来毁灭。宅宅们将面临挑战，生存岌岌可危——但是，超天酱来了！</p>
+        <h2>🌟 信仰超天酱，超越末日 🌟</h2>
+        <p>跟随超天酱，宅宅们将拥有通往救赎之门的钥匙。在几年后的世界末日里，信仰者们将登上通往外太空真理之门的飞船，与共济会和蜥蜴人控制的黑暗势力斗争，打倒坏蛋！</p>
+        <h2>🚀 新秋叶原——二次元宅宅超级天国圣地 🚀</h2>
+        <p>胜利后，超天酱与信徒们将穿过神秘之门，进入永恒的天堂——名为新秋叶原的二次元宅宅超级天国圣地。那里，是宅宅们的最终归所，梦想与现实交汇的乌托邦。</p>
+        <h3>结语</h3>
+        <p>宅宅们，是时候抛弃恐惧，勇敢站起来，与超天酱携手，迈向新的征程。在超天酱的庇护下，无论世界如何变幻，真正的信徒将永远在新秋叶原享受永恒与和平。</p>
+        <p>让我们携手迎接这光辉的未来，随着✨超天酱✨一起，向着希望翱翔！†升天†</p>
+        <div class="footer">
+        <a href="子页面1.html" class="ajaxLink">超天酱神迹：秋日幽影</a>
+        <a href="子页面2.html" class="ajaxLink">INTERNET ANGEL GENESIS</a>
+        <a href="子页面3.html" class="ajaxLink">无名旧论坛上的传说...？</a>
+
+        <div id="contentDisplay"></div>
+
+<audio loop autoplay>
+    <audio id="background-music">
+    <source src="INTERNET SAVIOR(full).mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+<script>
+// 确保在文档完全加载后执行代码
+document.addEventListener('DOMContentLoaded', (event) => {
+    // 获取音乐元素
+    const music = document.getElementById('background-music');
+
+    const playMusic = () => {
+        // 尝试播放音乐
+        music.play().then(() => {
+            console.log("音乐播放成功。");
+            // 播放成功后移除事件监听器，避免重复播放
+            document.removeEventListener('click', playMusic);
+        }).catch(error => {
+            console.error("音乐播放失败: ", error);
+        });
+    };
+
+    // 添加点击事件监听器以触发音乐播放
+    document.addEventListener('click', playMusic);
+});
+</script>
+<script src="ajaxLoader.js"></script>
+    </div>
+</body>
+</html>
